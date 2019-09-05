@@ -46,6 +46,7 @@ public class controller {
 
     @GetMapping("/t")
     public String t(){
+
         return "/test";
     }
 }
