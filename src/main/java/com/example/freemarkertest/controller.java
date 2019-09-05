@@ -32,7 +32,7 @@ public class controller {
     public ModelAndView testList(){
         ModelAndView mv = new ModelAndView("/index");
         List<User> userList = new ArrayList<>();
-        userList.add(new User("xiaoming","18","男"));
+        userList.add(new User("xiaoming ","18","男"));
         userList.add(new User("花花","20","nv"));
         mv.addObject("userList",userList);
         mv.addObject("userJson", JSONObject.toJSON(userList).toString());
