@@ -7,7 +7,7 @@
 </head>
 <body>
 <table border="6">
-    <caption> 我的标题是:${baseurl}</caption>
+    <caption> 我的标题是 :${baseurl}</caption>
     <tr>
         <td>name</td>
         <td>age</td>
